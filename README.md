@@ -22,7 +22,7 @@ A responsive and elegant wedding planning website designed to help users explore
 ```text
 WeddingPlanner/
 │
-├── home.html
+├── index.html
 ├── gallery.html
 ├── services.html
 ├── packages.html
