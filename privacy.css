@@ -1,0 +1,36 @@
+body {
+  font-family: "Georgia", serif;
+  background-color: #fff5f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
+
+header {
+  text-align: center;
+  padding: 20px 10px;
+  background: #e6b7c7;
+  color: #4b2e2e;
+  border-bottom: 3px solid #d497a8;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgb(254, 254, 241); 
+  border-radius: 10px;
+  border-left: 6px solid #dbffdb;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #034203; 
+  margin-top: 20px;
+}

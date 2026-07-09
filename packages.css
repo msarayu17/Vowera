@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff5f7;
+  color: #333;
+}
+
+header {
+  background-color: #e6b7c7;
+  padding: 2rem;
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 3px solid #d497a8;
+}
+
+header h1{
+  font-size: 2.2rem;
+  font-family: Georgia, serif;
+  color: #4b2e2e;
+}
+
+header p{
+  font-style: italic;
+  font-size: 1.1rem;
+  font-family: Georgia, serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.packages {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border: 2px solid #ffb6c1;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: #fff8fb;
+}
+
+.card h3 {
+  color: #ad4177;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.card .price {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.card li{
+    text-align: center;
+}
+
+.card button {
+  background-color: #9a3d6e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.card button:hover {
+  background-color: #6a2449;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background: #e6b7c7;
+  color: #4b2e2e;
+  text-align: center;
+  padding: 30px;
+  margin-top: 40px;
+  border-top: 3px solid #d497a8;
+  font-family: Georgia, serif;
+}

@@ -1,0 +1,33 @@
+body{
+    background: #fae6ea;
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-top: 200px;
+}
+
+button{
+    margin-left: 700px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+    background-color: #9a3d6e;
+}
+
+button:hover{
+    transform: translateY(3px);
+    background-color: #a42468;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}

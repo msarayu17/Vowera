@@ -1,0 +1,126 @@
+body{
+    background: #fff5f7;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem;
+    background: #e6b7c7;
+    color: #4b2e2e;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    border-bottom: 3px solid #d497a8
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.2rem
+}
+
+.header p {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.team {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+
+.team h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-member {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-8px);
+}
+
+.team-member img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 1.3rem;
+    margin: 10px 0 5px;
+    color: #222;
+}
+
+.team-member .role {
+    font-weight: bold;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.team-member .bio {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.box {
+    display: block;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 1400px;
+    margin: 15px auto;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background: rgb(254, 254, 241);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: translateY(7px);
+    background-color: rgb(255, 249, 251);
+}
+
+.footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #e6b7c7;
+    color: #4b2e2e;
+    margin-top: 2rem;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    border-top: 3px solid #d497a8;
+}
+
+.footer a {
+    color: #4b2e2e;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p{
+    font-family: Georgia, serif;
+}
